@@ -1,0 +1,22 @@
+{
+  "name": "image-inventory",
+  "version": "1.0.0",
+  "description": "Generate an image inventory of a site",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "image",
+    "images"
+  ],
+  "author": "Jona Leon | @nucliweb",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "commander": "^12.1.0",
+    "image-size": "^1.2.0",
+    "node-fetch": "^3.3.2"
+  }
+}
